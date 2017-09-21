@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BBITGA</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_home1">Home1</string>
+<!-- login strings/> -->
+    <string name="txt_description">Welcome</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_additional_information">Do not have an account?Signup</string>
+    <string name="txt_firstname">First name</string>
+    <string name="txt_lastname">Last name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_phone">Phone</string>
+    <!-- button strings/> -->
+    <string name="txt_lgnbutton">Login</string>
+    <string name="txt_sgnbutton">Sign up</string>
+    <string name="txt_crtbutton">Create Account</string>
+    <string name="txt_crtbutton2">Create</string>
+
+
+</resources>
