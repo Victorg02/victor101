@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/pdg_top"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="@dimen/lyt_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_username"
+        android:layout_alignParentLeft="true"
+
+        />
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="@dimen/lyt_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_password"
+        android:inputType="textPassword"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="@dimen/lyt_width"
+        android:text="@string/txt_lgnbutton"
+        android:layout_height="wrap_content"
+        android:background="@color/loginbtn"
+        android:layout_below="@+id/Password"
+        android:layout_centerInParent="true"
+
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/Sign"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/txt_additional_information"
+        android:textColor="@color/additionalbgr"
+        android:layout_below="@+id/Login"
+        />
+
+
+    <Button
+        android:id="@+id/Createaccount"
+        android:layout_width="@dimen/lyt_width"
+        android:text="@string/txt_crtbutton"
+        android:layout_height="wrap_content"
+        android:background="@color/createbtn"
+        android:layout_below="@+id/Sign"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
+
+
